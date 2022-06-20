@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+  }
+  nav{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .img{
+    width: 132px;
+    justify-content: flex-start;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  .nav-item{
+    font-weight: 700;
+    justify-content: space-between;
+    padding: 28px 17px;
+    color: white;
+  }
+
+  a:hover{
+    color: #1ed760;
+  }
+  
+  main{
+    height: 969px;
+    background-color: rgb(41,65,171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .headline{
+    font-size: 146px;
+    font-weight: 900;
+    color: #1ed760;
+    position: relative;
+    left: 200px;
+  }
+
+  .headline-first{
+    position: relative;
+    left: -2.5em;
+  }
+
+  .sub-headline{
+    color: #1ed760;
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 40px;
+  }
+
+  .main-button{
+    text-align: center;
+    padding: 15px;
+  }
+
+  .main-button-style{
+    border-radius: 500px;
+    border: none;
+    background-color:#1ed760;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    padding: 14px 32px;
+  }
+
+  .main-button-style:hover{
+    transform: scale(1.1);
+  }
+
+  footer{
+      height: 530px;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+  }
+
+  .container{
+      max-width: 1170px;
+      width: 100%;
+      padding-top: 80px;
+  }
+
+  .footer-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+  }
+
+  .first-box{
+    width: 60%;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .column{
+      flex-direction: column;
+      padding: 0 15px;
+  }
+  .head{
+    color: #919496;
+    font-weight: 900;
+    margin: 10px;
+  }
+  .footer-menu-item{
+    font-size: 16px;
+    margin: 10px;
+    display: flex;
+    color: white;
+  }
+
+  .second-box{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .icon-box{
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .icon-item{
+      color: white;
+  }
+
+  .icon-item:hover{
+    color: #1ed760;
+  }
+
+  .icon{
+    font-size: 24px;
+  }
+
+  .first-line{
+    justify-content: flex-end;
+    color: #919496;
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+  }
+
+  .second-line{
+    justify-content: space-between;
+    color: #919496;
+    text-decoration: none;
+    margin-top: 12px;
+    display: flex;
+  }
+
+  .second-line-item{
+    margin-right: 24px;
+    color: #919496;
+  }
